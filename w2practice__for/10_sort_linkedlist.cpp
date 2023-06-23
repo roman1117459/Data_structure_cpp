@@ -45,6 +45,7 @@ int main()
             break;
         insert_tail(head, tail, val);
     }
+    
     for (Node *i = head; i->next != NULL; i = i->next) // i == NULL kno ka kore na
     {
         for (Node *j = i->next; j != NULL; j = j->next)
