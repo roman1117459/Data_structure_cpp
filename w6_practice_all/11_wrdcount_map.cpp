@@ -10,11 +10,17 @@ int main()
     while (ss >> word)
     {
         mp[word]++;
+        cout << mp[word] << endl;
     }
     // for (auto it = mp.begin(); it != mp.end(); it++)
     // {
     //     cout << it->first << " " << it->second << endl;
     // }
     cout << mp["She"] << endl;
+
+    // for (auto it = mp.begin(); it != mp.end(); it++)
+    // {
+    //     cout << it-> first << endl;
+    // }
     return 0;
 }
