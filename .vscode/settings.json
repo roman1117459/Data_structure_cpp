@@ -12,6 +12,9 @@
         "span": "cpp",
         "regex": "cpp",
         "random": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
     }
 }
